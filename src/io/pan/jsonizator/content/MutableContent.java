@@ -18,4 +18,9 @@ public class MutableContent implements Content {
         );
         return this;
     }
+
+    @Override
+    public String toString() {
+        return content;
+    }
 }
